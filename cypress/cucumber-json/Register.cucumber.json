@@ -1,0 +1,63 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "",
+    "line": 1,
+    "id": "",
+    "tags": [],
+    "uri": "Register.feature",
+    "elements": [
+      {
+        "id": ";registration",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Registration",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I logged in with random number and default OTP",
+            "result": {
+              "status": "passed",
+              "duration": 2818000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "email",
+                      "dob",
+                      "gender"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "taylor",
+                      "random",
+                      "2004-05-18",
+                      "Female"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I filled registration form",
+            "result": {
+              "status": "passed",
+              "duration": 1971000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

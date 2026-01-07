@@ -1,0 +1,97 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Attempt Practice test",
+    "line": 1,
+    "id": "attempt-practice-test",
+    "tags": [],
+    "uri": "PracticeTest.feature",
+    "elements": [
+      {
+        "id": "attempt-practice-test;user-is-attempting-practice-test",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User is attempting practice test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I visited login page",
+            "result": {
+              "status": "passed",
+              "duration": 9600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "I logged in with number \"7208281444\" and otp \"131313\"",
+            "result": {
+              "status": "failed",
+              "duration": 10965000000,
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `.auth-login-form>div:nth-child(2)>div>input:nth-child(1)`, but never found it.\n    at LoginValidation.enterOtp (cypress/e2e/validations/login/LoginValidation.js:18:11)\n    at LoginTests.performLogin (cypress/e2e/tests/login/LoginTests.js:14:14)\n    at Context.eval (cypress/e2e/stepdefinitions/login/LoginStepDefinitions.js:10:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Opened practice section",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Selected one subject",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Selected random chapter",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Selected number of questions and started the test",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Attempted the test",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Validate Result Page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

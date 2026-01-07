@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login Flow Test",
+    "line": 1,
+    "id": "login-flow-test",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login-flow-test;positive-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Positive Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visited login page",
+            "result": {
+              "status": "passed",
+              "duration": 3848000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I logged in with number \"7208281444\" and otp \"131313\"",
+            "result": {
+              "status": "passed",
+              "duration": 2628000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-flow-test;negative-login",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Negative Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I visited login page",
+            "result": {
+              "status": "passed",
+              "duration": 866000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I logged in with number \"7208281444\" and wrong otp",
+            "result": {
+              "status": "passed",
+              "duration": 1636000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

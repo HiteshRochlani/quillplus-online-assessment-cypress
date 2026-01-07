@@ -1,0 +1,15 @@
+export class PracticeTestScreenConstants{
+    static OPTIONS = "[data-test-id^='practise-test-screen-option-']"
+    static BOTTOM_NAV_HOLDER = "[data-test-id^='practise-test-screen-bottom-nav-holder']"
+    static NEXT_BUTTON = "[data-test-id='practise-test-screen-next-button']"
+    static SUBMIT_BUTTON = "[data-test-id='practise-test-screen-submit-button']"
+    static CHECK_CORRECT_INCORRECT_ANSWER_ROUTE = "**/practice/check-for-correct-answer"
+    static INCORRECT_ANSWER_CLASS = "incorrect-answer"
+    static CORRECT_ANSWER_CLASS = "correct-answer"
+    static CONFIRM_BUTTON = "[data-test-id='customized-test-submit-confirm']" 
+    static SUBMIT_TEST_MODAL = ".modal-dialog"
+    static QUESTION_PILLS = "[data-test-id^='practise-test-screen-question-pill-no-']"
+    static TIMER = "[data-test-id='practise-test-screen-time']"
+    static TEST_ROUTE_INTERCEPT ="**/practice/test/*/complete-test"
+    static COMPLETE_TEST_ROUTE = "completeTestRoute"
+}

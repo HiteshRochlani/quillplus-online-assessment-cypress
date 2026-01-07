@@ -1,0 +1,20 @@
+# IDE
+.idea/
+*.iml
+
+# Node / Cypress
+node_modules/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Environment
+.env
+.env.*
+
+# Windows / binaries
+*.exe
+
+# Logs
+npm-debug.log*
+yarn-error.log*
